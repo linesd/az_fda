@@ -35,6 +35,8 @@ To run a custom experiment use `python main.py <params>`. For example:
 python main.py -p "bar" -s True -a "route"  -m "AstraZeneca"
 ```
 
+The argument `-a "generic"` runs Part A of the exercise and `-a "route"` runs Part B.
+
 ## Help
 ```
 usage: main.py [-h] [-u BASE_URL] [-m MANUFACTURER] [-p {line,bar}]
