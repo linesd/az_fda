@@ -1,7 +1,7 @@
 # AZ Conding Execise
 
 This repository contains code to query the OpenFDA API and retrieve drug information 
-for a particular manufacture, transform and visualise the data.
+for a particular manufacturer, transform and visualise the data.
 
 **Notes:**
  - The search for AstraZeneca products under the `openfda.manufacturer_name` field yields
@@ -17,7 +17,6 @@ for a particular manufacture, transform and visualise the data.
 2. [Run](#run)
 3. [Help](#help)
 4. [Results](#results)
-5. [Discussion](#Discussion)
 
 ## Install
 
