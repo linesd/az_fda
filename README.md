@@ -27,8 +27,7 @@ pip install -r requirements.txt
 
 ## Run
 
-Use `python main.py` to run the preset configuration to train and evaluate the model. 
-The preset configuration can be found in `config.ini`.
+Use `python main.py` to run the preset configuration found in `config.ini`.
 
 To run a custom experiment use `python main.py <params>`. For example:
 
