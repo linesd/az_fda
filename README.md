@@ -1,4 +1,4 @@
-# AZ Conding Execise
+# AZ Coding Execise
 
 This repository contains code to query the OpenFDA API and retrieve drug information 
 for a particular manufacturer, transform and visualise the data.
