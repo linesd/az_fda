@@ -5,8 +5,9 @@ for a particular manufacturer, transform and visualise the data.
 
 **Notes:**
  - The search for AstraZeneca products under the `openfda.manufacturer_name` field yields
-    only 27 records. Consequently, the average number of ingredients for per year and per 
-    year per route are significantly less than the exercise suggests.
+    only 27 records and only finds records in years 2016, 2018 and 2019. Consequently, the 
+    average number of ingredients for per year and per year per route are significantly less 
+    than the exercise suggests.
  - Ingredients listed in the `spl_product_data_elements` field are assumed to be separated
     by the `,` delimiter.
  - The low number of data points makes it difficult to successfully tranform the data 
