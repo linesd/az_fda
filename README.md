@@ -5,11 +5,13 @@ for a particular manufacturer, transform and visualise the data.
 
 **Notes:**
  - The search for AstraZeneca products under the `openfda.manufacturer_name` field yields
-    only 27 records.
- - Consequently, the average number of ingredients for per year and per year per route are
-    significantly less than the exercise suggests.
+    only 27 records. Consequently, the average number of ingredients for per year and per 
+    year per route are significantly less than the exercise suggests.
  - Ingredients listed in the `spl_product_data_elements` field are assumed to be separated
-    by the `,` delimiter. 
+    by the `,` delimiter.
+ - The low number of data points makes it difficult to successfully tranform the data 
+    (such as log, sqrt or arcsine) for parametric testing. So this is not done here for that
+    reason.
  - Tested for python >= 3.6
 
 **Table of Contents:**
